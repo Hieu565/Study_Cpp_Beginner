@@ -43,13 +43,23 @@ The program is written in C++ and runs in the terminal.
 ## Example output
 
 ```
-Hello, this is FixEverything shop!
+Hello, this is FixEverything shop! What can I help you?
 What should I call you: Alex
+
+Okay, so we can only help you to fix these problems:
++ Hardware (internal fan, shell, joint damage) - $50
++ Software (OS crash, navigation bug) - $40
++ Battery (battery replacement, charging issue) - $30
 
 What is the problem of your robot: OS crash
 
 So the expected price would be: $42.8
 Do you wish to continue to fix or not? [Y/N]
+Y
+
+Okay, I will fix your OS crash problem. It will cost you $42.8
+I will send you your bill later
+Thank you for trusting our service!
 ```
 
 ## How to run
