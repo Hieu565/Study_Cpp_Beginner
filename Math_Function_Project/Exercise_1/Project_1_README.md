@@ -37,3 +37,42 @@ How it works:
 2. ```fns.hpp``` declares functions
 3. ```fns.cpp``` defines those functions
 4. The compiler links everything during compilation
+
+## How to compile
+
+```g++ main.cpp fns.cpp -o app```
+
+## How to run
+
+```./app```
+
+## Functions
+
+```math()```: 
+- Gets input from user
+- Calls other functions
+- Prints results
+
+```sum(x, y, z)```: Returns the sum of 3 numbers
+
+```min(x, y, z)```: Returns the smallest number
+
+```sum_squares(x, y, z)```: Returns ```x² + y² + z²```
+
+## Example
+
+```
+Let x = 2
+Let y = 3
+Let z = 4
+
+Total of 3 number is 9.00
+The smallest number is 2.00
+Sum of each number squared is 29.00
+```
+
+## Notes
+
+Make sure to include this in ```fns.cpp```:
+
+```#include <iomanip>```
