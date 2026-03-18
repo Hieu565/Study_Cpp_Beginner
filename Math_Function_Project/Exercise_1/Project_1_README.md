@@ -14,11 +14,13 @@ It demonstrates:
 
 ## Project Structure
 
-```project/
+```
+project/
 │── main.cpp
 │── fns.cpp
 │── fns.hpp
-│── README.md```
+│── README.md
+```
 
 ## File roles
 
