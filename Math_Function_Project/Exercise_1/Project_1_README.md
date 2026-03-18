@@ -19,3 +19,19 @@ It demonstrates:
 │── fns.cpp
 │── fns.hpp
 │── README.md```
+
+## File roles
+
+- ```main.cpp```: Entry point of the program. Calls ```math()```.
+- ```fns.hpp```: Contains function declarations. Acts as the interface.
+- ```fns.cpp```: Contains implementations and program logic.
+
+## File Linking Explanation
+
+The project uses ```#include``` to connect files: ```#include "fns.hpp"```
+
+How it works:
+1. ```main.cpp``` includes ```fns.hpp```
+2. ```fns.hpp``` declares functions
+3. ```fns.cpp``` defines those functions
+4. The compiler links everything during compilation
