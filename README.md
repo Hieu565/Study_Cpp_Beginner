@@ -6,4 +6,4 @@ This repository tracks my projects as I continue improving my C++ skills.
 
 ## 1: Text_Adventure_POS_Project
 
-- Concepts used: 
+- Concepts used: variables, loops, simple library ```<iostream>```
