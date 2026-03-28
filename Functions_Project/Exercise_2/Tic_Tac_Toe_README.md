@@ -39,3 +39,24 @@ Bash
 g++ ttt.cpp ttt_functions.cpp -o tictactoe
 ./tictactoe
 ```
+
+## Example
+
+```
+==========================
+Welcome to Tic Tac Toe!!!
+==========================
+Instructions: 2 players will play in the 3x3 table. In a player's turn, he/she will enter number from 1 to 9 to mark their position for X/O at the table. Get three of your side's marks (X/O) in a row horizontally, vertically, or diagonally to win
+
+     |     |      
+  1  |  2  |  3
+_____|_____|_____ 
+     |     |      
+  4  |  5  |  6
+_____|_____|_____ 
+     |     |      
+  7  |  8  |  9
+     |     |      
+
+Now is X turn. Please choose position number to fill (from 1 to 9 ONLY):
+```
