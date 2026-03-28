@@ -7,5 +7,13 @@ The goal of this collection is to strengthen my problem-solving skills and gain 
 ## Exercise 1: Math Functions
 
 - Main concepts: Linking different ```.cpp``` files and header file ```.hpp```
-- [README](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Functions_Project/Exercise_1/Project_1_README.md)
+- [README](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Functions_Project/Exercise_1/Math_Functions_README.md)
 - Main script: [main.cpp](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Functions_Project/Exercise_1/main.cpp)
+
+## Exercise 2: Tic Tac Toe
+
+- Main concepts:
+  + Linking different ```.cpp``` files and header file ```.hpp```
+  + Store vector and update vectors among multiple files
+- [README](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Functions_Project/Exercise_1/Math_Functions_README.md)
+- Main script: [ttt.cpp](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Functions_Project/Exercise_1/main.cpp)
