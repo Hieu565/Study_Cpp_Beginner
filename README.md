@@ -19,12 +19,12 @@ The project sources marked (**) are from [Codecademy](https://www.codecademy.com
 
 ## **3: Vector exercises
 
-- Main concepts: functions; header files ```.hpp```; loops; update functions to ```main()```
+- Main concepts: vectors
 - [Folder](https://github.com/Hieu565/Study_Cpp_Beginner/tree/main/Vector1)
 - Overview README: [Overview_README.md](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Vector1/Overview_README.md)
 
 ## **4: Class and Objects exercises
 
-- Main concepts: functions; header files ```.hpp```; loops; update functions to ```main()```
+- Main concepts: classes, constructors, ```public``` and ```private```
 - [Folder](https://github.com/Hieu565/Study_Cpp_Beginner/tree/main/Class_and_Objects)
 - Overview README: [Overview_README.md](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Class_and_Objects/Overview_README.md)
