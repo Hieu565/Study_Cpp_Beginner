@@ -29,7 +29,7 @@ The project sources marked (**) are from [Codecademy](https://www.codecademy.com
 - [Folder](https://github.com/Hieu565/Study_Cpp_Beginner/tree/main/Class_and_Objects)
 - Overview README: [Overview_README.md](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Class_and_Objects/Overview_README.md)
 
-## **5: Memory and Pointers exercises
+## 5: Memory and Pointers exercises
 
 - Main concepts: Main concepts: Memory pointer, reference, linking between class and reference
 - [Folder](https://github.com/Hieu565/Study_Cpp_Beginner/tree/main/Memory_Pointer)
