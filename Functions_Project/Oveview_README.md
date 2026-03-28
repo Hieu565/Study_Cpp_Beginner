@@ -15,5 +15,5 @@ The goal of this collection is to strengthen my problem-solving skills and gain 
 - Main concepts:
   + Linking different ```.cpp``` files and header file ```.hpp```
   + Store vector and update vectors among multiple files
-- [README](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Functions_Project/Exercise_1/Math_Functions_README.md)
-- Main script: [ttt.cpp](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Functions_Project/Exercise_1/main.cpp)
+- [README](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Functions_Project/Exercise_2/Tic_Tac_Toe_README.md)
+- Main script: [ttt.cpp](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Functions_Project/Exercise_2/ttt_main.cpp)
