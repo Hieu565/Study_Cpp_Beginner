@@ -1,11 +1,21 @@
 # Tic-Tac-Toe in C++
 This project is a functional, text-based Tic-Tac-Toe game designed for two players to compete on a 3x3 grid using the command line.
 
+## Project Structure
+
+```
+project/
+│── ttt_main.cpp
+│── ttt_functions.cpp
+│── ttt.hpp
+│── README.md
+```
+
 ## File Structure
 The project is organized into three distinct files to demonstrate modular programming and clean code separation:
 
-- ```ttt.cpp```: This is the main driver of the program. It initializes the game board, sets up the winning combinations, and runs the central game loop that alternates between players.
-- ```ttt.hpp```: The header file that serves as a bridge between the logic and the main execution. It contains the function declarations for greeting players, displaying the board, and checking win conditions.
+- ```ttt.cpp```: Main driver: Initializes the game board, sets up the winning combinations, and runs the **central game loop** that alternates between players.
+- ```ttt.hpp```: The header file that serves as a **bridge** between the logic and the main execution. It contains the function declarations for greeting players, displaying the board, and checking win conditions.
 - ```ttt_functions.cpp```: This file contains the actual definitions (the "how-to") for all functions declared in the header. It handles the input logic, board updates, and the mathematics of checking for a winner.
 
 ## How to Play
