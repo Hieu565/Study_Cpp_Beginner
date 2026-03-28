@@ -1,8 +1,18 @@
 # Letter to Self: C++ Memory and Pointers
 This project is a technical "letter to self" that demonstrates fundamental C++ memory management concepts. It serves as a practical guide for understanding how data is stored, referenced, and accessed through pointers and memory addresses.
 
-## File Structure
+## Project Structure
 The project is organized into three files to separate data definitions from execution logic:
+
+```
+project/
+│── letter.cpp
+│── letter_func.cpp
+│── letter.hpp
+│── README.md
+```
+
+## File Structure
 
 - ```letter.cpp```: The main entry point that initializes the Letter class and executes the sequence of memory operations.
 - ```letter.hpp```: The header file containing the Letter class definition and function prototypes for the memory tools.
