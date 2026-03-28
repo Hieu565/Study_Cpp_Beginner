@@ -3,7 +3,7 @@
 I started learning C++ to build a strong programming foundation and understand how software works at a deeper level. I began with basic concepts like variables, loops, and functions, then moved on to more advanced topics such as object-oriented programming and memory management.
 
 This repository tracks my projects as I continue improving my C++ skills.
-The project sources marked (**) are from [Codeacademy](https://www.codecademy.com/).
+The project sources marked (**) are from [Codecademy](https://www.codecademy.com/).
 
 ## **1: Text_Adventure_POS_Project
 
