@@ -8,7 +8,7 @@ The project sources marked (**) are from [Codecademy](https://www.codecademy.com
 ## **1: Text_Adventure_POS_Project
 
 - Main concepts: variables; loops; ```if-else``` condition; simple library ```<iostream>``` ; ```<string>```
-- [README](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Text_Adventure_POS_Project/POS_README.md)
+- README: [README](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Text_Adventure_POS_Project/POS_README.md)
 - Codebase: [Store purchase record.cpp](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Text_Adventure_POS_Project/Store%20purchase%20record.cpp)
 
 ## **2: Functions exercises
@@ -28,3 +28,9 @@ The project sources marked (**) are from [Codecademy](https://www.codecademy.com
 - Main concepts: classes, constructors, ```public``` and ```private```
 - [Folder](https://github.com/Hieu565/Study_Cpp_Beginner/tree/main/Class_and_Objects)
 - Overview README: [Overview_README.md](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Class_and_Objects/Overview_README.md)
+
+## **5: Memory and Pointers exercises
+
+- Main concepts: Main concepts: Memory pointer, reference, linking between class and reference
+- [Folder](https://github.com/Hieu565/Study_Cpp_Beginner/tree/main/Memory_Pointer)
+- Overview README: [Overview_README.md]([https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Class_and_Objects/Overview_README.md](https://github.com/Hieu565/Study_Cpp_Beginner/blob/main/Memory_Pointer/Overview_README.md))
