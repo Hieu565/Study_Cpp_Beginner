@@ -12,6 +12,7 @@ int main()  {
   for (int i = 0; i < (text.size()-7); i++)  {
     
     if(text[i] == 'b' && text[i+1] == 'r' && text[i+2] == 'o' && text[i+3] == 'c' && text[i+4] == 'c' && text[i+5] == 'o' && text[i+6] == 'l' && text[i+7] == 'i')  {
+      // text.substr(a,b) to cut text from text[a] to text[b]
       text = text.substr(0,i) + new_text + text.substr((i+8),text.size());
     }
   }
