@@ -1,4 +1,4 @@
-# Tic-Tac-Toe in C++
+# **Tic-Tac-Toe in C++
 This project is a functional, text-based Tic-Tac-Toe game designed for two players to compete on a 3x3 grid using the command line.
 
 ## Project Structure
