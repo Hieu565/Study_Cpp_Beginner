@@ -1,4 +1,4 @@
-# Study_C-_Text-Adventure-Store-POS-records
+# **Text-Adventure-Store-POS-records
 
 This small project is my first documentation on my study of C++ as a begineer. It simulates a simple Point-of-Sale (POS) system for a robot repair shop called FixEverything. It allows the shop to record customer repair requests, calculate service costs, apply tax, and confirm whether the customer wants to proceed with the repair.
 
