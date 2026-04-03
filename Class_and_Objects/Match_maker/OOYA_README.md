@@ -1,4 +1,4 @@
-# OOYA: The Object Of Your Affection
+# **OOYA: The Object Of Your Affection
 This project is a C++ profile creator called "The Object Of Your Affection" (OOYA). It demonstrates the use of Object-Oriented Programming (OOP) to build a structured dating or social networking profile system.
 
 ## Project Architecture
