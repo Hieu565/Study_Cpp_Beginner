@@ -1,4 +1,4 @@
-# Bleep: String Censor in C++
+# **Bleep: String Censor in C++
 This project is a functional string manipulation program designed to identify a specific target word within a body of text and "bleep" it out by replacing its characters with asterisks.
 
 ## Project Structure
