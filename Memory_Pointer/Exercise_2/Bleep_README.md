@@ -49,3 +49,6 @@ Program Output:
 Plaintext
 I eat ********, ******** tastes good. There are three interesting things about *******
 ```
+
+## Notes
+Compiling ```Bleep_letter``` also gives the same result as compiling ```bleep_main.cpp```, ```functions.hpp``` and ```functions.cpp```, but the code is more complex and harder to scale for modifying multiple strings.
