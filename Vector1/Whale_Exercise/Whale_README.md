@@ -1,4 +1,4 @@
-# Whale Talk Translator
+# **Whale Talk Translator
 This program is a C++ implementation of a "Whale Talk" generator. It takes a standard English string and translates it into whale language based on specific phonetic rules.
 
 ## How It Works
