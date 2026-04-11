@@ -50,5 +50,7 @@ Plaintext
 I eat ********, ******** tastes good. There are three interesting things about *******
 ```
 
-## Notes
-Compiling ```Bleep_letter.cpp``` also gives the same result as compiling ```bleep_main.cpp```, ```functions.hpp``` and ```functions.cpp```, but the code is more complex and harder to scale for modifying multiple strings.
+## Variations
+- ```Bleep_letter.cpp```: gives the same result as compiling ```bleep_main.cpp```, ```functions.hpp``` and ```functions.cpp```, but the code is more complex and harder to scale for modifying multiple strings.
+- ```bleep_pointer.cpp```: gives the same result as compiling ```bleep_main.cpp```, ```functions.hpp``` and ```functions.cpp```, while using memory and pointers to update letters
+- Optional: ```reverse_bleep.cpp```: now reverse the forbidden letter instead of just replacing with '*'
