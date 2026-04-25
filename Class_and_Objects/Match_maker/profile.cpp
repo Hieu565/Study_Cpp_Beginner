@@ -2,13 +2,14 @@
 #include <iostream>
 
 // define constructor on profile to access variable on private class
-Profile::Profile(std::string new_name,int new_age,std::string new_city,std::string new_country,std::string new_pronouns) {
+Profile::Profile(std::string new_name,int new_age,std::string new_city,std::string new_country,std::string new_gender,std::string new_pronouns) {
   
   name = new_name;
   age = new_age;
   city = new_city;
   country = new_country;
   pronouns = new_pronouns;
+  gender = new_gender;
 
 }
 
@@ -44,7 +45,7 @@ void greet()  {
 }
 
 // ask for general input
-void ask(std::string &name, int &age, std::string &city, std::string &country)  {
+void ask(std::string &name, int &age, std::string &city, std::string &country, std::string &gender, std::string &pronouns)  {
   std::cout << "Please enter your name: ";
   std::cin >> name;
   std::cout << "Please enter your age: ";
@@ -53,10 +54,14 @@ void ask(std::string &name, int &age, std::string &city, std::string &country)  
   std::cin >> city;
   std::cout << "Which country do you come from: ";
   std::cin >> country;
+  // gender input condition
+  std::cout << "What is your gender (Men/Women/Other): ";
+  std::cin >> gender;
+  gender_reference(gender,pronouns);
 }
 
 // gender input handling
-void gender_reference(std::string gender,std::string pronouns)  {
+void gender_reference(std::string gender,std::string &pronouns)  {
   while(gender != "Men" && gender != "Women" && gender != "Other")  {
     
     std::cout << "You can only select (Men/Women/Other). Please select again: ";
