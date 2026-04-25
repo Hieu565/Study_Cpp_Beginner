@@ -6,32 +6,24 @@ int main() {
   // Greet
   greet();
   
-  // Input variable
-  std::string n_name;
-  int n_age;
-  std::string n_city;
-  std::string n_country;
-  std::string gender;
-  std::string n_pronouns;
-  std::string n_hobbies;
+  // Input object call
+  Input in;
   
-  // Ask for information
-  ask(n_name,n_age,n_city,n_country);
-  
-  // gender input condition
-  std::cout << "What is your gender (Men/Women/Other): ";
-  std::cin >> gender;
-  gender_reference(gender,n_pronouns);
+  // Ask for information (call method ask() using object Input)
+  ask(in.n_name,in.n_age,in.n_city,in.n_country,in.gender,in.n_pronouns);
 
   // Inputting information to profile (class)
-  Profile sam(n_name,n_age,n_city,n_country,n_pronouns);
+  Profile sam(in.n_name,in.n_age,in.n_city,in.n_country,in.gender,in.n_pronouns);
   
+  // After all previous std::cin input calls
+  std::cin.ignore(); // avoid automatically inputting 1 line before ask
+
   // enter hobbies
   std::cout << "Please enter your 3 favourite hobbies:\n";
   for(int i = 0; i < 3; i++)  {
     std::cout << std::to_string(i+1) + ". ";
-    std::cin >> n_hobbies;
-    sam.add_hobby(n_hobbies);
+    std::getline(std::cin, in.n_hobbies);
+    sam.add_hobby(in.n_hobbies);
   }
   
   sam.view_profile();
